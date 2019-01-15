@@ -51,7 +51,7 @@ fotter {
 
 /* item */
 .item .panel-body {
-  height: 120px;    /* Want ボタンが増えたので、70px から 120pxに修正 */
+  height: 170px;    /* Want ボタンが増えたので、70px から 120pxに修正 */
 }
 .item .panel-heading {
   height: 250px;
