@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'items/new'
+
   get 'sessions/new'
 
   get 'sessions/create'
@@ -12,4 +14,6 @@ Rails.application.routes.draw do
   delete 'logout', to: 'sessions#destroy'
   get 'signup', to: 'users#new'
   resources :users, only: [:show, :new, :create]
+  
+  resources :items, only: [:new]
 end
